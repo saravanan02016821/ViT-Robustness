@@ -144,10 +144,11 @@ All results saved to `results/metrics/` and `results/plots/`
 
 Our group used Kaggle to generate our final training and Corruption evalutions due to using up all of our Colab GPU usage during our numerous attempts of getting the most efficient training and corruption evaluation.
 
-## Random Seed
+## Reproducibility (Further information)
 
 All experiments use `seed = 42` for reproducibility.  
 Seed set via `torch.manual_seed(42)` and `numpy.random.seed(42)`.
+Fixed train/val split documented in `configs/` folder
 
 ---
 
