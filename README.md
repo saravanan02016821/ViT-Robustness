@@ -224,4 +224,4 @@ seaborn>=0.12.0
 
 ## AI Tool Disclosure
 
-I tools (Claude, Anthropic) were used to assist with code structure and debugging. All experimental results, analysis, and writing represent the team's own work 
+AI tools (Claude, Anthropic) were used to assist with code structure and debugging. All experimental results, analysis, and writing represent the team's own work 
