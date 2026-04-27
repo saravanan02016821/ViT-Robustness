@@ -12,7 +12,7 @@ This project compares how well a Vision Transformer (ViT-Base/16) and a
 CNN (ResNet-18) hold up when test images are corrupted, using four corruption 
 types at three intensity levels on the CIFAR-10 dataset.
 
-Important Note: We do NOT aim to improve either model — only to measure and analyze 
+Important Note: We do NOT aim to improve either model, only to measure and analyze 
 robustness behavior under corruption.
 
 ## Research Questions
@@ -106,7 +106,7 @@ Run `src/02_Train_Models.ipynb` on **Google Colab (T4 GPU) or Kaggle (T4 GPU)**
 - Saves best checkpoints based on validation accuracy
 - CNN runtime: ~30 minutes | ViT runtime: ~90 minutes
 
-> A GPU is required for this step — CPU is too slow for ViT training.  
+> A GPU is required for this step, CPU is too slow for ViT training.  
 > We recommend starting with Google Colab T4 GPU.  
 > If you hit Colab's free GPU quota limit, Kaggle T4 x2 GPU is a free alternative.  
 > To enable GPU on Kaggle: Session options → Accelerator → GPU T4 x2 (requires phone verification).
@@ -117,7 +117,7 @@ Run `src/03_Evaluation.ipynb` on **Google Colab (T4 GPU) or Kaggle (T4 GPU)**
 - Saves all results to `results/metrics/`
 - Runtime: ~15 minutes
 
-> Same GPU recommendation as Step 2 — try Colab first, use Kaggle if GPU is unavailable.
+> Same GPU recommendation as Step 2: try Colab first, use Kaggle if GPU is unavailable.
 
 ### Step 4 — Generate Plots
 Run `src/04_Plots_and_Analysis.ipynb` on **Google Colab (CPU is fine) or Kaggle**
