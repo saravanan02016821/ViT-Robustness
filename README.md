@@ -46,6 +46,7 @@ robustness behavior under corruption.
 
 ## Repository Structure
 
+```
 ViT-Robustness/
 ├── README.md
 ├── requirements.txt
@@ -68,8 +69,8 @@ ViT-Robustness/
 │       ├── robustness_comparison.png
 │       └── average_robustness.png
 └── report/
-└── FinalReport.pdf
----
+    └── FinalReport.pdf
+```
 
 ## Repository Structure
 
