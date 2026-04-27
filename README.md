@@ -197,7 +197,7 @@ pip install -r requirements.txt
 
 ### Requirements
 
----
+```
 torch>=2.0.0
 torchvision>=0.15.0
 transformers>=4.35.0
@@ -209,7 +209,7 @@ Pillow>=9.5.0
 pyyaml>=6.0
 tqdm>=4.65.0
 seaborn>=0.12.0
----
+```
 
 
 
