@@ -125,8 +125,6 @@ Run `src/04_Plots_and_Analysis.ipynb` on **Google Colab (CPU is fine) or Kaggle*
 - Generates all plots and saves them to `results/plots/`
 - Runtime: ~2 minutes
 
-```
-
 ## Outputs
 All results saved to `results/metrics/` and `results/plots/`
 
