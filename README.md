@@ -4,7 +4,7 @@ Comparing robustness of Vision Transformers vs CNNs under image corruption
 # Robustness of Vision Transformers Under Image Corruption
 
 **Course:** Advanced Topics in Deep Learning, LLMs, and LVMs  
-**Track:** B — LVM Applications (Vision)  
+**Track:** B: LVM Applications (Vision)  
 **Team:** Shruthi Saravanan, Sharvani Bhavanam, CharanSai Kamsani
 
 ## Project Overview
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 ## How to Reproduce Results
 
-### Step 1 — Data Setup
+### Step 1: Data Setup
 Run `src/01_Setup_and_Data.ipynb` on **Google Colab or Kaggle**
 - Downloads CIFAR-10 automatically
 - Creates fixed train (45k) / val (5k) / test (10k) split
@@ -99,7 +99,7 @@ Run `src/01_Setup_and_Data.ipynb` on **Google Colab or Kaggle**
 
 > Run this notebook first before any other notebook
 
-### Step 2 — Train Models
+### Step 2: Train Models
 Run `src/02_Train_Models.ipynb` on **Google Colab (T4 GPU) or Kaggle (T4 GPU)**
 - Trains ResNet-18: 15 epochs, batch size 128, learning rate 0.0001
 - Fine-tunes ViT-Base/16: 10 epochs, batch size 64, learning rate 0.00002
@@ -111,7 +111,7 @@ Run `src/02_Train_Models.ipynb` on **Google Colab (T4 GPU) or Kaggle (T4 GPU)**
 > If you hit Colab's free GPU quota limit, Kaggle T4 x2 GPU is a free alternative.  
 > To enable GPU on Kaggle: Session options → Accelerator → GPU T4 x2 (requires phone verification).
 
-### Step 3 — Evaluate Robustness
+### Step 3: Evaluate Robustness
 Run `src/03_Evaluation.ipynb` on **Google Colab (T4 GPU) or Kaggle (T4 GPU)**
 - Applies 4 corruption types x 3 severity levels to the test set only
 - Saves all results to `results/metrics/`
@@ -119,7 +119,7 @@ Run `src/03_Evaluation.ipynb` on **Google Colab (T4 GPU) or Kaggle (T4 GPU)**
 
 > Same GPU recommendation as Step 2: try Colab first, use Kaggle if GPU is unavailable.
 
-### Step 4 — Generate Plots
+### Step 4: Generate Plots
 Run `src/04_Plots_and_Analysis.ipynb` on **Google Colab (CPU is fine) or Kaggle**
 - No GPU needed for this step
 - Generates all plots and saves them to `results/plots/`
