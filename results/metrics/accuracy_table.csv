@@ -1,0 +1,13 @@
+corruption,severity,level_value,cnn_accuracy,vit_accuracy
+gaussian_noise,1,0.25,0.2665,0.2182
+gaussian_noise,2,0.5,0.1318,0.1018
+gaussian_noise,3,0.75,0.109,0.0998
+gaussian_blur,1,1.0,0.5395,0.7756
+gaussian_blur,2,2.0,0.2992,0.3092
+gaussian_blur,3,4.0,0.2347,0.1635
+brightness,1,0.5,0.7696,0.9604
+brightness,2,0.3,0.6195,0.8936
+brightness,3,0.1,0.1419,0.3028
+rotation,1,15,0.6815,0.9221
+rotation,2,30,0.4614,0.8465
+rotation,3,45,0.3584,0.7219
