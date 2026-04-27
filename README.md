@@ -189,6 +189,30 @@ All corruptions are applied to the test set only. Training data is always clean.
 
 ---
 
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+### Requirements
+
+---
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+Pillow>=9.5.0
+pyyaml>=6.0
+tqdm>=4.65.0
+seaborn>=0.12.0
+---
+
+
+
 ## References
 
 - Dosovitskiy et al. (2020). An Image is Worth 16x16 Words. arXiv:2010.11929
