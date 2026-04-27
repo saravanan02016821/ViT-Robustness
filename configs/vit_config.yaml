@@ -1,9 +1,12 @@
-model: vit
+model: vit-base-patch16-224
 pretrained: true
 num_classes: 10
 optimizer: adam
 lr: 0.00002
 weight_decay: 0.0001
-batch_size: 32
+batch_size: 64
 epochs: 10
 seed: 42
+lr_schedule: cosine_annealing
+fine_tune_layers: classifier_and_last_2_blocks
+hardware: kaggle_t4_x2
